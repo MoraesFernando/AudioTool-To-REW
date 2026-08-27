@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+env.bak/
+.venv.bak/
+
+# Testes, cobertura e caches
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Empacotamento e artefatos gerados
+build/
+dist/
+*.egg-info/
+.eggs/
+*.spec
+
+# Poetry
+poetry.toml
+
+# Dados de medicao e arquivos gerados localmente
+*.at
+*.swp
+*.txt
+*.csv
+*.dat
+*.frd
+*.zma
+*.cal
+
+# Arquivos de configuracao local e segredos
+.env
+.env.*
+!.env.example
+*.env
+*.secret
+*.secrets
+*credentials*
+*credential*
+*password*
+*passwd*
+*token*
+*apikey*
+*api_key*
+
+# Certificados e chaves privadas
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Sistema operacional e IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e arquivos temporarios
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp

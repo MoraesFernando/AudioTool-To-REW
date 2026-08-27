@@ -1,0 +1,37 @@
+[project]
+name = "rew-converter"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Fernando Moraes Brasil Santos", email = "fernando.brasil@hnipo.org.br" },
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = []
+
+[tool.poetry]
+packages = [{ include = "rew_converter" }]
+
+
+[tool.poetry.group.dev.dependencies]
+chardet = "^5.2.0"
+auto-py-to-exe = "^2.47.0"
+pyright = "^1.1.404"
+pyarmor = "^9.1.8"
+pytest = "^8.3.5"
+pytest-cov = "^6.0.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["rew_converter"]
+
+[tool.coverage.report]
+fail_under = 95
+exclude_lines = ["if __name__ == .__main__.:"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
