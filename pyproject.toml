@@ -3,7 +3,7 @@ name = "rew-converter"
 version = "0.1.0"
 description = ""
 authors = [
-    { name = "Fernando Moraes Brasil Santos", email = "fernando.brasil@hnipo.org.br" },
+    { name = "Fernando Moraes Brasil Santos", email = "buneco2007@gmail.com" },
 ]
 readme = "README.md"
 requires-python = ">=3.12,<3.14"
